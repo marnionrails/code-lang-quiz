@@ -2,19 +2,19 @@
 
 Independent project for Epicodus, showing how to achieve a result through branching
 
-By Marni Sucher
+**By Marni Sucher**
 
-#### Description
+## Description
 
 This program generates a quiz that will determine which programming langauge the quiz taker should learn. 
 
-#### Setup/Installation
+## Setup/Installation
 
 * Clone repository at https://github.com/marnionrails/code-lang-quiz
 * Open code-language-quiz folder
 * Open index.html in browser
 
-#### Technologies Used
+## Technologies Used
 * HTML
 * CSS
 * BootStrap
@@ -22,9 +22,11 @@ This program generates a quiz that will determine which programming langauge the
 * jQuery
 * VS Code
 
-#### Known Bugs
+## Known Bugs
 
-#### License
+* None at this time
+
+## License
 
 Copyright (c) 2021 Marni Sucher
 This software is licensed under the GPL license. 
