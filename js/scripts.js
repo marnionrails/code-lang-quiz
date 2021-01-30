@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     let total = parseInt(answer1) + parseInt(answer2) + parseInt(answer3) + parseInt(answer4) + parseInt(answer5);
 
-    
+
 
     if (total <= 8) {
       $("#c-sharp").show();
