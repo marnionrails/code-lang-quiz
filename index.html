@@ -14,10 +14,14 @@
     
     <h1>Which programming language should you learn?</h1>
 
-    <form id = "form-group">
-      <h3>Want to be a software developer, but can't decide which programming langauge to learn? <br> This quiz will help you.</h3>
+    <h3>Want to be a software developer, but can't decide which programming langauge to learn? <br> This quiz will help you.</h3>
 
-      <div class="Q1">
+    <form id = "form-group">
+
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name">
+     
+      <div class="Q1 Q">
         <p>What trait would your friends use to describe you?</p>
 
         <input type="radio" name="question1" id="compassionate" value="1">
@@ -30,7 +34,7 @@
         <label for="hilarious">Hilarious</label>          
       </div>
 
-      <div class="Q2">
+      <div class="Q2 Q">
         <p>What is your favorite fruit?</p>
         
         <input type="radio" name="question2" id="apple" value="1">
@@ -43,7 +47,7 @@
         <label for="orange">Orange</label>         
       </div>
 
-      <div class="Q3">
+      <div class="Q3 Q">
         <p>Choose a destination.</p>
         
         <input type="radio" name="question3" id="canada" value="1">
@@ -56,7 +60,7 @@
         <label for="sweden">Sweden</label>         
       </div>
 
-      <div class="Q4">
+      <div class="Q4 Q">
         <p>You are watching a presentation at work. What are you doing?</p>
         
         <input type="radio" name="question4" id="note-taking" value="1">
@@ -69,7 +73,7 @@
         <label for="spacing-out">Spacing out--you hate presentations!</label>         
       </div>
 
-      <div class="Q5">
+      <div class="Q5 Q">
         <p>What time of day are you most productive?</p>
         
         <input type="radio" name="question5" id="morning" value="1">
@@ -85,17 +89,17 @@
       <button class="submit">Submit</button>
     </form>
 
-    <div class = "c-sharp result">
+    <div class = "result" id="c-sharp">
       <p>You should learn C#</p>
       <img src="img/c-sharp.jpg" alt="C#">
     </div>
 
-    <div class="java result">
+    <div class="result" id="java">
       <p>You should learn Java</p>
       <img src="img/java.jpg" alt="Java">
     </div>
 
-    <div class="ruby-on-rails result">
+    <div class="result" id="ruby-on-rails">
       <p>You should learn Ruby On Rails.</p>
       <img src="img/rubyonrails.jpg" alt="Ruby On Rails">
     </div>
