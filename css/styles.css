@@ -30,3 +30,12 @@ input[type="radio"]:checked + label {
     background-color: rgb(127, 168, 216);
     border-color: rgb(64, 87, 192);
 }
+
+img {
+  width: 30%;
+  margin: auto;
+}
+
+.result p {
+  font-size: 1.6em;
+}
