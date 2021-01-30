@@ -28,5 +28,6 @@ This program generates a quiz that will determine which programming langauge the
 
 ## License
 
-Copyright (c) 2021 Marni Sucher
+Copyright (c) 2021 Marni Sucher 
+####
 This software is licensed under the GPL license. 
