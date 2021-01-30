@@ -1,126 +1,86 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Which Language Should You Learn?</title>
 </head>
 <body>
   <div class = "container">
+    
     <h1>Which programming language should you learn?</h1>
 
-    <form class = "form-group">
+    <form id = "form-group">
       <h3>Want to be a software developer, but can't decide which programming langauge to learn? <br> This quiz will help you.</h3>
       <button class="btn">Start Quiz</button>
 
       <div class="Q1">
         <p>What trait would your friends use to describe you?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1">
-            Compassionate
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2">
-            Reliable
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3">
-            Hilarious
-          </label>
-        </div>
+
+        <input type="radio" name="question1" value="1">
+        <label for="Compassionate">Compassionate</label>
+
+        <input type="radio" name="question1" value="2">
+        <label for="Reliable">Reliable</label>
+
+        <input type="radio" name="question1" value="3">
+        <label for="Hilarious">Hilarious</label>          
       </div>
 
       <div class="Q2">
         <p>What is your favorite fruit?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1">
-            Apple
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2">
-            Banana
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3">
-            Orange
-          </label>
-        </div>
+        
+        <input type="radio" name="question2" value="1">
+        <label for="Apple">Apple</label>
+
+        <input type="radio" name="question2" value="2">
+        <label for="Banana">Banana</label>
+
+        <input type="radio" name="question2" value="3">
+        <label for="Orange">Orange</label>         
       </div>
 
       <div class="Q3">
         <p>Choose a destination.</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1">
-            Canada
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2">
-            Japan
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3">
-            Sweden
-          </label>
-        </div>
+        
+        <input type="radio" name="question3" value="1">
+        <label for="Canada">Canada</label>
+
+        <input type="radio" name="question3" value="2">
+        <label for="Japan">Japan</label>
+
+        <input type="radio" name="question3" value="3">
+        <label for="Sweden">Sweden</label>         
       </div>
 
       <div class="Q4">
         <p>You are watching a presentation at work. What are you doing?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1">
-            Taking notes quietly
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2">
-            Offering input
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3">
-            Spacing out--you hate presentations!
-          </label>
-        </div>
+        
+        <input type="radio" name="question4" value="1">
+        <label for="note-taking">Taking notes quietly</label>
+
+        <input type="radio" name="question4" value="2">
+        <label for="input">Offering input</label>
+
+        <input type="radio" name="question4" value="3">
+        <label for="spacing-out">Spacing out--you hate presentations!</label>         
       </div>
 
       <div class="Q5">
         <p>What time of day are you most productive?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1">
-            Morning
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2">
-            Afternoon
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3">
-            Evening
-          </label>
-        </div>
+        
+        <input type="radio" name="question5 value="1">
+        <label for="Morning">Morning</label>
+
+        <input type="radio" name="question5" value="2">
+        <label for="Afternoon">Afternoon</label>
+
+        <input type="radio" name="question3" value="3">
+        <label for="Evening">Evening</label>         
       </div>
 
       <button class="submit">Submit</button>
