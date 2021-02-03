@@ -14,16 +14,16 @@ $(document).ready(function() {
 
 
     if (total <= 8) {
-      $("#c-sharp").show();
-      $("#java, #ruby-on-rails").hide();
-    }
-    else if (total <= 13) {
-      $("#java").show();
-      $("#c-sharp, #ruby-on-rails").hide();
-    }
-    else if (total <= 18) {
-      $("#ruby-on-rails").show();
-      $("#java, #c-sharp").hide();
+        $("#c-sharp").show();
+        $("#java, #ruby-on-rails").hide();
+    } else if (total <= 13) {
+        $("#java").show();
+        $("#c-sharp, #ruby-on-rails").hide();
+    } else if (total <= 18) {
+        $("#ruby-on-rails").show();
+        $("#java, #c-sharp").hide();
+    } else {
+      alert("Sorry, something went wrong!")
     }
   });
 });
